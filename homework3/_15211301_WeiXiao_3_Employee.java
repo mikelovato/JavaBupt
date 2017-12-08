@@ -57,9 +57,10 @@ public abstract class _15211301_WeiXiao_3_Employee
     public String toString()
     {
         StringBuilder employ=new StringBuilder("");
-        employ.append("\nFirst name:"+getfirstname());
-        employ.append("\nLast name:"+getLastname());
-        employ.append("\nSocial security number:"+getSocialSecurityNumber());
+        //employ.append("\nFirst name:"+getfirstname());
+        //employ.append("\nLast name:"+getLastname());
+        //employ.append("\nSocial security number:"+getSocialSecurityNumber());
+        employ.append("本月工资："+earning());
         return employ.toString();
     }
 }

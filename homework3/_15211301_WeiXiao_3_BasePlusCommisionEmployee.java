@@ -40,8 +40,9 @@ public class _15211301_WeiXiao_3_BasePlusCommisionEmployee extends _15211301_Wei
     public String toString()
     {
         StringBuilder base= new StringBuilder("");
-        base.append(super.toString());
-        base.append("\n基本工资："+getBaseSalary());
+        //base.append(super.toString());
+        //base.append("\n基本工资："+getBaseSalary());
+        base.append("本月工资："+earning());
         return base.toString();
     }
 }

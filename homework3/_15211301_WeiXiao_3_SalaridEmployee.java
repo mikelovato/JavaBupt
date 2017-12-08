@@ -21,10 +21,7 @@ public class _15211301_WeiXiao_3_SalaridEmployee extends _15211301_WeiXiao_3_Emp
         super(f,l,s);
         weeklySalary=w;
     }
-    public final double getWeeklySalary()
-    {
-        return weeklySalary;
-    }
+    public final double getWeeklySalary() { return weeklySalary; }
 
     public final void setWeeklySalary(double w)
     {
@@ -40,8 +37,9 @@ public class _15211301_WeiXiao_3_SalaridEmployee extends _15211301_WeiXiao_3_Emp
     public String toString()
     {
         StringBuilder commision= new StringBuilder("");
-        commision.append(super.toString());
-        commision.append("\n周薪："+getWeeklySalary());
+        //commision.append(super.toString());
+        //commision.append("\n周薪："+getWeeklySalary());
+        commision.append("本月工资："+earning());
         return commision.toString();
     }
 }

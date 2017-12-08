@@ -52,9 +52,10 @@ public class _15211301_WeiXiao_3_HourlyEmployee extends _15211301_WeiXiao_3_Empl
     public String toString()
     {
         StringBuilder hour= new StringBuilder("");
-        hour.append(super.toString());
-        hour.append("\n工作时间："+getHours());
-        hour.append("\n时薪："+getWage());
+        //hour.append(super.toString());
+        //hour.append("\n工作时间："+getHours());
+        //hour.append("\n时薪："+getWage());
+        hour.append("本月工资："+earning());
         return hour.toString();
     }
 }

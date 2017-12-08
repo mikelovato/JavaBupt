@@ -53,9 +53,10 @@ public class _15211301_WeiXiao_3_CommisionEmployee extends _15211301_WeiXiao_3_E
     public String toString()
     {
         StringBuilder commision= new StringBuilder("");
-        commision.append(super.toString());
-        commision.append("\n销售额："+getGrossSales());
-        commision.append("\n佣金率："+getcommissionRate());
+        //commision.append(super.toString());
+        //commision.append("\n销售额："+getGrossSales());
+        //commision.append("\n佣金率："+getcommissionRate());
+        commision.append("本月工资："+earning());
         return commision.toString();
     }
 }
